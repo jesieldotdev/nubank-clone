@@ -7,10 +7,13 @@ export default {
         3: "3px", // Adiciona um novo valor de stroke-width
       },
       colors: {
-        primary: '#9400d3 ', // Exemplo de cor azul do Twitter
+        primary: "#820AD1 ",
+        customGray: "#efefef",
+        customGray2: "#ded2ed",
+        customDark: "#323232",
       },
       fontFamily: {
-        'sans': ['Product Sans', 'sans-serif'],
+        sans: ["Montserrat", "sans-serif"],
       },
     },
   },

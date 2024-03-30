@@ -9,7 +9,7 @@ export const AppBar = () => {
         <div className="flex justify-between">
             <img
                 src="https://avatars.githubusercontent.com/u/82860253?s=96&v=4"
-                className="rounded-full w-12 h-12 object-cover"
+                className="rounded-full w-12 h-12 object-cover mt-2"
             />
 
             <div className="flex justify-between gap-6">

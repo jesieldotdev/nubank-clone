@@ -23,17 +23,12 @@ export const CardCarrossel: React.FC<CategoryScrollProps> = () => {
         // Adicione mais categorias conforme necessário
     ].map((item, index) => ({ id: index, ...item }))
 
-    function selectedClass(sel: number) {
-        if (sel === selected) return 'bg-zinc-200 text-black'
-        else return 'bg-zinc-800 text-white'
-    }
-
-    return (<div className="flex overflow-x-auto gap-2 mt-8 w-auto px-4">
+    return (<div className="flex overflow-x-auto gap-2 mt-8 px-4">
         {categories.map((category) => (
-            <div key={category.id} className="flex-shrink-0 justify-center text-center  w-auto  ">
+            <div key={category.id} className="flex-shrink-0 justify-center text-left  w-5/6 ">
                 <button
                     onClick={() => setSelected(category.id)}
-                    className={`text-sm font-semibold px-6 py-6 rounded-lg bg-zinc-200 text-black   text-center flex justify-center items-center h-auto`}>
+                    className={`text-sm font-normal px-6 py-6 rounded-lg bg-zinc-200 text-black   text-left flex justify-center items-center h-auto`}>
                     {category.name}
 
                 </button>
