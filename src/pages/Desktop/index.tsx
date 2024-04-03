@@ -1,19 +1,11 @@
 import React from "react"
-import { BankWalletDesktop } from "./components/BankWalletDesktop"
 import { HeaderDesktop } from "./components/HeaderDesktop"
 import { Messages } from "./components/Messages"
 import { Card } from "./components/Card"
-import Pix from '../../assets/pix.svg';
-import Transfer from '../../assets/transfer.svg';
-import Deposit from '../../assets/deposit.svg';
-import { Barcode, DollarSign, DownloadCloud, Smartphone, Upload, UploadCloud } from "lucide-react"
-import SvgIcon from "../../components/SVG"
+import { Barcode, DollarSign, DownloadCloud, Smartphone, UploadCloud } from "lucide-react"
 import { Menu } from "./components/Menu"
 import { ExpenseCard } from "./components/CreditCard"
 
-interface DesktopViewProps {
-
-}
 
 export const DesktopView = () => {
     const items = [

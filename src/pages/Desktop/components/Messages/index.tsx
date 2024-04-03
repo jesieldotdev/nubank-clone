@@ -1,10 +1,6 @@
 import React from "react"
 import { BankWalletDesktop } from "../BankWalletDesktop"
 
-interface MessagesProps {
-
-}
-
 export const Messages = () => {
     return (
         <div className='bg-primary px-12 py-6 flex gap-4 text-xs'>

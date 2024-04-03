@@ -1,8 +1,6 @@
 import { CreditCard } from "lucide-react"
+import React from "react"
 
-interface MyCardProps{
-
-}
 
 export const MyCard = () => {
     return (

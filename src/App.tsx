@@ -2,12 +2,9 @@
 import React from 'react'
 import { AppBar } from './components/AppBar'
 import { BankWallet } from './components/BankWallet'
-import { BankWalletDesktop } from './components/BankWalletDesktop'
 import { CardCarrossel } from './components/CardCarosels'
-import { CardDesktop } from './components/CardDesktop'
 import { CardMessages } from './components/CardMessages'
 import CategoryScroll from './components/CategoryScroll'
-import { HeaderDesktop } from './components/HeaderDesktop'
 import { MyCard } from './components/MyCard'
 import { DesktopView } from './pages/Desktop'
 

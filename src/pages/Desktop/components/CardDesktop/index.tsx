@@ -1,6 +1,4 @@
-interface CardDesktopProps {
-
-}
+import React from "react"
 
 export const CardDesktop = () => {
     return (

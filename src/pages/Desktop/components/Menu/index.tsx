@@ -1,9 +1,6 @@
-import { ChevronRight, CircleHelp, Cog, Shield, SlidersVertical, UserRound } from "lucide-react"
+import { ChevronRight, CircleHelp, Shield, SlidersVertical, UserRound } from "lucide-react"
 import React from "react"
 
-interface MenuProps {
-
-}
 
 export const Menu = () => {
     const items = [

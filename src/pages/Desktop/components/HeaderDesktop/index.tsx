@@ -1,9 +1,6 @@
 import React from 'react'
 import Logo from '../../../../assets/nubanklogo.svg'
 
-interface HeaderDesktopProps {
-
-}
 
 export const HeaderDesktop = () => {
     return (
