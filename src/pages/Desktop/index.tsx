@@ -9,6 +9,7 @@ import Deposit from '../../assets/deposit.svg';
 import { Barcode, DollarSign, DownloadCloud, Smartphone, Upload, UploadCloud } from "lucide-react"
 import SvgIcon from "../../components/SVG"
 import { Menu } from "./components/Menu"
+import { ExpenseCard } from "./components/CreditCard"
 
 interface DesktopViewProps {
 
@@ -63,8 +64,10 @@ export const DesktopView = () => {
                     }
                 </div>
 
-                <Menu />
-
+                <div className="flex gap-4">
+                    <Menu />
+                    <ExpenseCard />
+                </div>
             </div>
         </div>
     )
