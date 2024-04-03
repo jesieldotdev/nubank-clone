@@ -1,5 +1,6 @@
 import { CreditCard } from "lucide-react"
 import React from "react"
+import { BarProgressBalance } from "../BarProgressBalance"
 
 
 export const ExpenseCard = () => {
@@ -34,9 +35,13 @@ export const ExpenseCard = () => {
                         <p className="font-bold text-lg">R$ 264,98</p>
                         <p className="text-[#7a7a80] font-medium">Próximas faturas</p>
                     </div>
+                    
                 </div>
 
+
             </div>
+            <BarProgressBalance />
+
 
         </div>
     )
