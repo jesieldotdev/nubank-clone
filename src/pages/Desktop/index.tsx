@@ -8,6 +8,7 @@ import Transfer from '../../assets/transfer.svg';
 import Deposit from '../../assets/deposit.svg';
 import { Barcode, DollarSign, DownloadCloud, Smartphone, Upload, UploadCloud } from "lucide-react"
 import SvgIcon from "../../components/SVG"
+import { Menu } from "./components/Menu"
 
 interface DesktopViewProps {
 
@@ -43,21 +44,27 @@ export const DesktopView = () => {
 
     ]
     return (
-        <div className="bg-[#efefef] h-screen">
+        <div className="bg-[#efefef] h-full">
             <div className='bg-customGray'>
                 <HeaderDesktop />
                 <Messages />
             </div>
 
-            <div className="px-12 py-8 grid md:grid-cols-4 lg:grid-cols-6 gap-8">
-                {
-                    items.map(category =>
-                        <Card
-                            key={category.name}
-                            icon={<category.icon color="#820ad1" />
-                            }
-                            title={category.name} />)
-                }
+            <div className="px-12 py-8">
+
+                <div className="grid md:grid-cols-4 lg:grid-cols-6 gap-8">
+                    {
+                        items.map(category =>
+                            <Card
+                                key={category.name}
+                                icon={<category.icon color="#820ad1" />
+                                }
+                                title={category.name} />)
+                    }
+                </div>
+
+                <Menu />
+
             </div>
         </div>
     )
