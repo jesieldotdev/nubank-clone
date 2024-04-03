@@ -38,7 +38,7 @@ export const Menu = () => {
         },
     ].map((item, index) => ({id: index, ...item}))
     return (
-        <div className="p-6 rounded-lg flex flex-col justify-center bg-white w-1/4 mt-8 shadow-lg gap-4">
+        <div className="p-6 rounded-lg flex flex-col justify-center bg-white w-1/4 mt-8 shadow-lg gap-4 cursor-pointer">
             {
                 items.map(item =>
                     <div
