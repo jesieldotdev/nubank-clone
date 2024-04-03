@@ -43,7 +43,7 @@ export const DesktopView = () => {
         },
     ]
     return (
-        <div className="bg-[#efefef] h-full">
+        <div className="bg-[#f7f7ff] h-full">
             <div className='bg-customGray'>
                 <HeaderDesktop />
                 <Messages />
