@@ -41,8 +41,6 @@ export const DesktopView = () => {
             name: 'Recarga de celular',
             icon: Smartphone
         },
-
-
     ]
     return (
         <div className="bg-[#efefef] h-full">
@@ -53,7 +51,7 @@ export const DesktopView = () => {
 
             <div className="px-12 py-8">
 
-                <div className="grid md:grid-cols-4 lg:grid-cols-6 gap-8">
+                <div className="flex gap-8">
                     {
                         items.map(category =>
                             <Card
@@ -64,7 +62,7 @@ export const DesktopView = () => {
                     }
                 </div>
 
-                <div className="flex gap-4">
+                <div className="flex gap-8">
                     <Menu />
                     <ExpenseCard />
                 </div>
