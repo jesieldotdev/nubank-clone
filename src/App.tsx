@@ -9,6 +9,7 @@ import { CardMessages } from './components/CardMessages'
 import CategoryScroll from './components/CategoryScroll'
 import { HeaderDesktop } from './components/HeaderDesktop'
 import { MyCard } from './components/MyCard'
+import { DesktopView } from './pages/Desktop'
 
 function App() {
 
@@ -43,21 +44,9 @@ function App() {
           <CardCarrossel />
 
         </div>
-      </> : <>
-        <div className='bg-customGray'>
-          <HeaderDesktop />
-          <div className='bg-primary px-12 py-6 grid grid-cols-3 gap-4'>
-            <BankWalletDesktop className='items-center flex' />
-            <div className="bg-customGray2 rounded-xl mr-12  items-center flex px-6 py-4 w-auto ">
-              <p className="font-light">Veja os descontos que preparamos para você no<br/>  <span className='text-primary'>Shopping Nubank</span></p>
-            </div>
-            <div className="bg-customGray2 rounded-xl mr-12 items-center flex px-6 py-4 ">
-              <p className="font-light"><span className='text-primary'>25% de desconto</span> em empréstimo com portabilidade de salário </p>
-            </div>
-         
-          </div>
-        </div>
-      </>}
+      </> : 
+      <DesktopView/>
+}
     </div>
   )
 }

@@ -1,8 +1,5 @@
 import { EllipsisVertical, ReceiptText } from "lucide-react"
 
-interface CardMessagesProps{
-
-}
 
 export const CardMessages = () => {
     return (
