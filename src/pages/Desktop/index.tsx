@@ -48,7 +48,7 @@ export const DesktopView = () => {
                         items.map(category =>
                             <Card
                                 key={category.name}
-                                icon={<category.icon color="#820ad1" />
+                                icon={<category.icon className="text-primary" />
                                 }
                                 title={category.name} />)
                     }
